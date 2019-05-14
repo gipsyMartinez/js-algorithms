@@ -1,4 +1,4 @@
-const initQueue = require("./queues");
+const initQueue = require("./queue");
 
 // Testing queues.js
 const q = initQueue();
