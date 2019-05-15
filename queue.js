@@ -1,6 +1,6 @@
 // Queues (first in first out)
 
-module.exports = function() {
+function initQueue() {
   const queue = [];
 
   return {
@@ -21,7 +21,9 @@ module.exports = function() {
       return queue[queue.length - 1];
     }
   };
-};
+}
+
+exports.initQueue = initQueue;
 
 //const q = initQueue();
 
