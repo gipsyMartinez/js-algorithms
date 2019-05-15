@@ -1,6 +1,6 @@
 // Priority Queues
 
-const { initQueue } = require("./queue");
+const { initQueue } = require("./queues");
 
 function initPriorityQueue() {
   const lowPriorityQueue = initQueue();
